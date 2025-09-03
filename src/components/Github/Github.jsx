@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 
 function Github() {
   /*
+  // without useLoader Hook
   const [data, setData] = useState([]);
   useEffect(() => {
     fetch("https://api.github.com/users/MANMOHAN4")
